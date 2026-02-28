@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Турагентство "Путешествия"</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">Путешествия</a>
+                <nav class="nav">
+                    <a href="#home" class="nav-link">Главная</a>
+                    <a href="#tours" class="nav-link">Туры</a>
+                    <a href="#about" class="nav-link">О нас</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Секция главный экран -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 class="hero-title">Откройте мир с нами</h1>
+                <p class="hero-subtitle">Лучшие туры, индивидуальный подбор и удобные цены</p>
+                <a href="#tours" class="btn">Выбрать тур</a>
+            </div>
+        </section>
+
+        <!-- Секция «Популярные туры» -->
+        <section id="tours" class="tours">
+            <div class="container">
+                <h2 class="section-title">Популярные направления</h2>
+                <div class="tours-grid">
+                    <div class="tour-card">
+                        <img src="https://picsum.photos/400/250?random=1" alt="Тур в Турцию" class="tour-image" />
+                        <div class="tour-content">
+                            <h3>Турция</h3>
+                            <p>7 дней, всё включено, перелёт и отель</p>
+                            <span class="tour-price">от 45 000 ₽</span>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://picsum.photos/400/250?random=2" alt="Тур в Грецию" class="tour-image" />
+                        <div class="tour-content">
+                            <h3>Греция</h3>
+                            <p>10 дней, море, экскурсии, питание</p>
+                            <span class="tour-price">от 65 000 ₽</span>
+                        </div>
+                    </div>
+                    <div class="tour отказ">
+                        <img src="https://picsum.photos/400/250?random=3" alt="Тур в Египет" class="tour-image" />
+                        <div class="tour-content">
+                            <h3>Египет</h3>
+                            <p>14 дней, пляжный отдых на Красном море</p>
+                            <span class="tour-price">от 70 000 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- О нас -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">О нас</h2>
+                <div class="about-content">
+                    <p>
+                        Наше турагентство работает уже 10 лет и помогает людям планировать мечты. 
+                        Мы подбираем туры под ваш бюджет, интересы и время отдыха.
+                    </p>
+                    <ul class="about-features">
+                        <li>Гарантия безопасности и поддержка 24/7</li>
+                        <li>Гибкие схемы оплаты и скидки</li>
+                        <li>Опытные менеджеры и индивидуальный подход</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <div class="contacts-info">
+                    <p>Телефон: <strong>+7 (3902) 348-348</strong></p>
+                    <p>Почта: <strong>tours@gmail.com</strong></p>
+                    <p>Адрес: <strong>г. Абакан, ул. Авиаторов, д. 6 "А"</strong></p>
+                </div>
+                <form class="contact-form">
+                    <h3>Оставить заявку</h3>
+                    <input type="text" placeholder="Ваше имя" required />
+                    <input type="tel" placeholder="Телефон" required />
+                    <textarea placeholder="Ваши пожелания по туру"></textarea>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Турагентство "Путешествия". Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
